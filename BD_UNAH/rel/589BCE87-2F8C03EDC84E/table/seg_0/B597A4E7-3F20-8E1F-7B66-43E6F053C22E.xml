@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B597A4E7-3F20-8E1F-7B66-43E6F053C22E" name="TBL_CENTROS_REGIONALES">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-11 01:23:25 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CENTRO_REGIONAL" id="FF8550A0-1323-4172-FA67-F2C0B788C0E8">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-11 01:28:39 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_LUGAR" id="8CDB846B-D407-9228-76DD-BA3F663DB222">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-18 01:49:52 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57A70DA6-889C-D099-2702-F416C61445B8" referredColumn="5F0794EC-3A2E-BF36-5DC6-387ECAB60051"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="2CD0F11E-69F4-FE21-14CE-5187631D6DEF">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-11 01:28:39 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="CC64B9B2-1329-6FAF-B2AB-16D5286AF3FC">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-11 01:28:39 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIGLAS" id="1A27A205-AEFB-252F-698B-4A239D04D6E3">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-11 01:28:39 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9A2BE88-361E-5219-10B9-3FA9C3348987" name="TBL_CENTROS_REGIONALES_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-11 01:28:39 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF8550A0-1323-4172-FA67-F2C0B788C0E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C73F38BA-F2BB-9D6E-1FB7-FDC234AA624E" name="TBL_CENTROS_REGIONALES_TBL_LUGARES_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-18 01:49:52 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CDB846B-D407-9228-76DD-BA3F663DB222"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

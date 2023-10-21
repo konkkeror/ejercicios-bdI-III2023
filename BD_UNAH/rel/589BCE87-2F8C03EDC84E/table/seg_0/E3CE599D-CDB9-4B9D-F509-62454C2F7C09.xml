@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3CE599D-CDB9-4B9D-F509-62454C2F7C09" name="TBL_CATEGORIAS_MAESTROS">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:44:15 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CATEGORIA" id="6167223F-31AF-0684-8E67-3C896CE3CEE4">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:44:45 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CATEGORIA" id="A2F08D90-50BE-FA62-6425-867D231E9CFE">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:44:45 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E43ABFC7-DAB7-B44C-8209-694372C196BC" name="TBL_CATEGORIAS_MAESTROS_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:44:45 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6167223F-31AF-0684-8E67-3C896CE3CEE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

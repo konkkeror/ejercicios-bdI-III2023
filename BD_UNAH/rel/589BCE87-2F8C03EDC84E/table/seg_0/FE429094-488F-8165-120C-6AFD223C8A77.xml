@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE429094-488F-8165-120C-6AFD223C8A77" name="TBL_CARRERAS">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:08:28 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CARRERA" id="F03A480A-4C3D-33D1-7A71-A7FDEF20600F">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:10:21 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CARRERA" id="56E9DC93-E19F-6AFA-FF5A-352F0B2C83A4">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:10:21 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_CLASES" id="CBFF4346-8429-5E28-7672-187CAB911538">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:10:21 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_JEFE" id="D6897315-7772-9B7F-E1B5-8827694A5C1A">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:32:10 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83DC9C22-B028-E9B9-7297-6B681159E4FB" referredColumn="A3F0ABA5-E846-D949-768F-B6A95E997FD8"/>
+</associations>
+</Column>
+<Column name="CODIGO_COORDINADOR" id="7B536C45-C827-46E4-4E74-AD8AE80FCEC2">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:33:05 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F0A920D-F8E6-E499-DC67-E7FA324FDD5B" referredColumn="A3F0ABA5-E846-D949-768F-B6A95E997FD8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7C7A625-E75A-1189-443E-29D0C085BEE0" name="TBL_CARRERAS_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:10:21 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F03A480A-4C3D-33D1-7A71-A7FDEF20600F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5301EAD6-5B56-808E-A169-3FC57CADD65D" name="TBL_CARRERAS_TBL_EMPLEADOS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:32:10 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6897315-7772-9B7F-E1B5-8827694A5C1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0D9E16F-6FA9-D997-5BB5-895F0A557E85" name="TBL_CARRERAS_TBL_EMPLEADOS_FKv2">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:33:05 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B536C45-C827-46E4-4E74-AD8AE80FCEC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64E5CF55-DC21-A684-FBAD-A310F067EFDC" name="TBL_REQUISITOS">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-18 01:22:16 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="FD31C232-9391-CDE3-5852-F334876A7F0E">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-20 01:39:04 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ASIGNATURA" id="BB5125D2-D2BA-D9ED-9581-294282A20EF9">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-18 01:23:30 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08753408-E353-3341-BE60-8BD23F07D39D" referredColumn="217C1CF3-6C73-3836-CB07-0F4DC834A7B1"/>
+</associations>
+</Column>
+<Column name="CODIGO_REQUISITO" id="89FAC6B5-9653-D2F5-EF35-1FE42754EDA0">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-18 01:23:42 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C1FEED9-813B-217D-5151-C1FDB29940C1" referredColumn="217C1CF3-6C73-3836-CB07-0F4DC834A7B1"/>
+</associations>
+</Column>
+<Column name="CODIGO_CARRERA" id="4EDDF9B3-D6C7-CDA1-6B05-EC9209D320C9">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-20 01:35:45 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C96E6EBB-752D-99C6-263E-2F2A4715A604" referredColumn="F03A480A-4C3D-33D1-7A71-A7FDEF20600F"/>
+</associations>
+</Column>
+<Column name="APROBADO" id="98798E3E-5EB4-4150-9D58-6ABF52BB0A51">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-18 01:25:27 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A6DDAEB-58B0-65C5-8D12-ADBE826AEA44" name="TBL_REQUISITOS_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-20 01:39:04 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD31C232-9391-CDE3-5852-F334876A7F0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA644505-189C-AA7C-6DDC-24C51B3946DB" name="TBL_REQUISITOS_TBL_ASIGNATURAS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-18 01:23:30 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB5125D2-D2BA-D9ED-9581-294282A20EF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C92A1AAC-2EF9-FD3E-2D17-6067501487E1" name="TBL_REQUISITOS_TBL_ASIGNATURAS_FKv2">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-18 01:23:42 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89FAC6B5-9653-D2F5-EF35-1FE42754EDA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B496F545-964E-E6FA-34AF-9C4A6AD8EB26" name="TBL_REQUISITOS_TBL_CARRERAS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-20 01:35:45 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EDDF9B3-D6C7-CDA1-6B05-EC9209D320C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

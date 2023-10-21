@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA1156B7-C58B-3A62-27DB-CB88B34282D3" name="TBL_MATRICULA">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-20 01:41:14 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_SECCION" id="B1194E9A-4895-24A7-63E1-A68F3FE1D815">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-20 01:42:48 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="619CFE6D-4E4B-4D99-D1F4-4F19623A0C57" referredColumn="30D5D9DF-E91F-4A34-3A24-FA24BF936379"/>
+</associations>
+</Column>
+<Column name="CODIGO_ALUMNO" id="F6A87C6B-AAF7-FDDE-DA2A-D03C6318402B">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-20 01:43:12 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB598E0E-552C-DE01-34BD-0AF252B33165" referredColumn="3F1EDE11-19DA-5A80-2027-0DEBAFA4686D"/>
+</associations>
+</Column>
+<Column name="CODIGO_ESTADO" id="AEC11326-9402-462A-844B-B2508814D3D9">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-20 01:46:38 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B7E242C-2486-8EAD-3079-A52E7F4357F5" referredColumn="95F5B636-808C-EF8C-1B02-2DB780C71705"/>
+</associations>
+</Column>
+<Column name="NUMERO_LISTA" id="7E0FCDD1-152E-D79E-354C-5B291FC6D961">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-20 01:44:56 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B56913B1-1B61-3B97-B8B2-75F686949540" name="TBL_MATRICULA_TBL_SECCIONES_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-20 01:42:48 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1194E9A-4895-24A7-63E1-A68F3FE1D815"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8A1C64D-79AF-A62F-9F11-51ED96EB171B" name="TBL_MATRICULA_TBL_ALUMNOS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-20 01:43:12 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6A87C6B-AAF7-FDDE-DA2A-D03C6318402B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E05BDC9D-3F62-8402-91DD-A1D5F98D3213" name="TBL_MATRICULA_TBL_ESTADOS_MATRICULA_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-20 01:46:38 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEC11326-9402-462A-844B-B2508814D3D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

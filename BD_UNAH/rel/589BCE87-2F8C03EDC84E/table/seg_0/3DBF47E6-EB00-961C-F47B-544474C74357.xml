@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3DBF47E6-EB00-961C-F47B-544474C74357" name="TBL_SECCIONES">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:50:03 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_SECCION" id="30D5D9DF-E91F-4A34-3A24-FA24BF936379">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:50:24 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_SECCION_ALTERNATIVO" id="890D94C5-73DA-5420-D3CE-DBF574BF396F">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-20 01:51:25 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_PERIODO" id="287951DA-5D94-6DAE-CEC3-383F5D13C56D">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:51:35 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="970A0E59-5849-C1A1-0FE7-35A1CDCDB5FB" referredColumn="EFD5C41E-6758-FBE7-C931-C9312E7AC8A3"/>
+</associations>
+</Column>
+<Column name="CODIGO_EDIFICIO" id="8FB26271-0BE1-BF49-A653-3481B2C7F90F">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:51:47 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10BCF6EB-5715-AB71-6D96-61690BF92B62" referredColumn="07B8A28D-916C-E1D5-4B37-CC0DB21B3486"/>
+</associations>
+</Column>
+<Column name="CODIGO_MAESTRO" id="1C7EB840-B9BB-5B64-5138-1640E53E1C1C">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:51:55 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91464FDA-46BA-69B1-9B02-48132DFC66FC" referredColumn="1019642B-05CB-2284-A062-AE54F61F772E"/>
+</associations>
+</Column>
+<Column name="CODIGO_ASIGNATURA" id="7F87BA0E-A2BF-3E48-BBA4-6BA5E94E8F77">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-20 01:41:51 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18A884BF-9862-3FEF-7A49-9EB2C56430F8" referredColumn="217C1CF3-6C73-3836-CB07-0F4DC834A7B1"/>
+</associations>
+</Column>
+<Column name="CANTIDAD_CUPOS" id="E7B4BED8-4124-9F7B-9EE7-92DA02E1D4D6">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:51:02 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_AULA" id="1EAB0EF2-B5B6-88FF-6FB8-C404B2C130AF">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:52:21 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C971DB34-742B-23C4-FF75-E7477FACF28F" name="TBL_SECCIONES_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:51:12 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30D5D9DF-E91F-4A34-3A24-FA24BF936379"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01538539-668E-3B65-E2A9-4FBB7DA05CE0" name="TBL_SECCIONES_TBL_PERIODOS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:51:35 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="287951DA-5D94-6DAE-CEC3-383F5D13C56D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BD57C75-0AAA-3D20-00B2-EFAA22A457EF" name="TBL_SECCIONES_TBL_EDIFICIOS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:51:47 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FB26271-0BE1-BF49-A653-3481B2C7F90F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F546DA7-7459-EBC9-4017-EB42E5E6AD72" name="TBL_SECCIONES_TBL_MAESTROS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:51:55 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C7EB840-B9BB-5B64-5138-1640E53E1C1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DDFC263-E8D0-D190-B1FA-6C159C86F806" name="TBL_SECCIONES_TBL_ASIGNATURAS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-20 01:41:51 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F87BA0E-A2BF-3E48-BBA4-6BA5E94E8F77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

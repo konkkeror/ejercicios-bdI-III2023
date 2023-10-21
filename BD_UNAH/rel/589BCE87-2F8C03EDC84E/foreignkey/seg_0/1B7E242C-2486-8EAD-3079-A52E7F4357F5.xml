@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1B7E242C-2486-8EAD-3079-A52E7F4357F5" containerWithKeyObject="DA1156B7-C58B-3A62-27DB-CB88B34282D3" localFKIndex="E05BDC9D-3F62-8402-91DD-A1D5F98D3213" name="TBL_MATRICULA_TBL_ESTADOS_MATRICULA_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-20 01:46:38 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<referredTableLongName>TBL_ESTADOS_MATRICULA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B5E9A8F4-9E27-0EDD-147D-F13F7F36DFE6</referredTableID>
+<keyObject>E500C507-062C-32F9-5A90-6CB34E6CCA22</keyObject>
+<referredKeyID>E500C507-062C-32F9-5A90-6CB34E6CCA22</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_ESTADO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

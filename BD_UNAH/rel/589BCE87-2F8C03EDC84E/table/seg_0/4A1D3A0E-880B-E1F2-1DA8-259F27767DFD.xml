@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A1D3A0E-880B-E1F2-1DA8-259F27767DFD" name="TBL_PERIODOS">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:48:48 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PERIODO" id="EFD5C41E-6758-FBE7-C931-C9312E7AC8A3">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:49:32 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO" id="1B9B0847-D736-019C-057F-CC6276FEA789">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:49:32 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="E99362C3-EDD0-83BA-0F9D-FF5ED49F4EC6">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:49:32 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9AC8C6E0-A029-E313-97C7-D477AB194858" name="TBL_PERIODOS_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:49:32 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFD5C41E-6758-FBE7-C931-C9312E7AC8A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

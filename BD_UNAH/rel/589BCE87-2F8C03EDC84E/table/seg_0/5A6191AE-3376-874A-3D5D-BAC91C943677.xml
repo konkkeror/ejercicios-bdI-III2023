@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A6191AE-3376-874A-3D5D-BAC91C943677" name="TBL_EMPLEADOS">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-12 01:48:19 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_EMPLEADO" id="A3F0ABA5-E846-D949-768F-B6A95E997FD8">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-12 01:50:44 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEC251E2-AEAB-4D48-7881-7348B11BD9A4" referredColumn="93FB133F-480D-B04B-F60F-1D9E8E7FB58F"/>
+</associations>
+</Column>
+<Column name="SALARIO" id="C4034CDB-90DD-5235-555E-809AA2FAE311">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-12 01:49:01 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_PERFIL" id="1B8FEBB8-DF62-5E99-4AE8-4657DCF672F5">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:30:49 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="203ECED3-C915-16F1-FA88-136B37FFEF2D" referredColumn="E3830BA2-62F2-41C2-2C60-3E7BBEF9D93F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD674B32-104B-B7B9-2EC8-F6BA3214A142" name="TBL_EMPLEADOS_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-12 01:51:19 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3F0ABA5-E846-D949-768F-B6A95E997FD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8141FB5F-E893-53AE-763C-9EC886EC53CC" name="TBL_EMPLEADOS_TBL_PERSONAS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-12 01:50:44 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3F0ABA5-E846-D949-768F-B6A95E997FD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65FB0A32-C70C-83C0-3C05-F2A0D0598EF9" name="TBL_EMPLEADOS_TBL_PERFILES_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-13 17:30:49 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B8FEBB8-DF62-5E99-4AE8-4657DCF672F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

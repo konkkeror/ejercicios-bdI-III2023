@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A5C99035-729E-0155-0C46-E3642C2AC526" containerWithKeyObject="EB7629F7-138F-8E9F-7121-5CBDDBA15842" localFKIndex="DD4647CE-FF82-AB38-3F9D-39140A1D9E8F" name="TBL_PERSONAS_TBL_CENTROS_REGIONALES_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-12 01:51:58 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<referredTableLongName>TBL_CENTROS_REGIONALES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B597A4E7-3F20-8E1F-7B66-43E6F053C22E</referredTableID>
+<keyObject>B9A2BE88-361E-5219-10B9-3FA9C3348987</keyObject>
+<referredKeyID>B9A2BE88-361E-5219-10B9-3FA9C3348987</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_CENTRO_REGIONAL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

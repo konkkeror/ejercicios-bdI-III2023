@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F20FE79-FFDA-1791-4122-3A7156301055" name="TBL_ALUMNOS">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-12 01:41:53 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ALUMNO" id="3F1EDE11-19DA-5A80-2027-0DEBAFA4686D">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-12 01:45:37 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DD109E4-56EC-C75E-FA2A-3D6E7389C1C1" referredColumn="93FB133F-480D-B04B-F60F-1D9E8E7FB58F"/>
+</associations>
+</Column>
+<Column name="PROMEDIO" id="09B3B885-90D6-7C61-2BFC-05B81120A239">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-12 01:44:30 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUENTA" id="2F16B617-A564-F5F2-EA44-343DFC2C41E2">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-12 01:44:30 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLOR_DE_OJOS" id="F78DDE6E-4350-39F5-76E4-D5C45DD435D5">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-12 01:46:53 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C80A74E9-AFCE-DF4D-89AB-17F95D53D449" name="TBL_ALUMNOS_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-12 01:45:55 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F1EDE11-19DA-5A80-2027-0DEBAFA4686D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26D88346-1CA8-8F2F-69ED-5F532CB87F4E" name="TBL_ALUMNOS_TBL_PERSONAS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-12 01:45:37 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F1EDE11-19DA-5A80-2027-0DEBAFA4686D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

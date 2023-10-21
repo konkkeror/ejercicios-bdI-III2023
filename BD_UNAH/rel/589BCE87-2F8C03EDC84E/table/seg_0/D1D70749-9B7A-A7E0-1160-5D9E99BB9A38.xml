@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1D70749-9B7A-A7E0-1160-5D9E99BB9A38" name="TBL_ASIGNATURAS">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-18 01:19:35 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ASIGNATURA" id="217C1CF3-6C73-3836-CB07-0F4DC834A7B1">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-18 01:22:11 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_CARRERA" id="5B368AC1-93E2-7E29-A18B-0100C4EA2911">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-20 01:12:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[ESTE CODIGO DE CARRERA ES LA CARRERA DUEÑNA DE LA CLASE]]></commentInRDBMS>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AE3E0C6-D9E6-02DB-5FE3-60383CBC6426" referredColumn="F03A480A-4C3D-33D1-7A71-A7FDEF20600F"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="7BAC14B3-70BB-EE6E-7AF2-D3E44A867B29">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-18 01:22:11 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UV" id="8EA3BF28-192B-2E12-C960-C2BD907B245F">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-18 01:22:11 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69697065-770A-56BC-6DD8-5001BFC76740" name="TBL_ASIGNATURAS_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-18 01:22:11 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="217C1CF3-6C73-3836-CB07-0F4DC834A7B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD03B8D0-7232-3057-37F7-FEF94538A3F3" name="TBL_ASIGNATURAS_TBL_CARRERAS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-20 01:12:14 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B368AC1-93E2-7E29-A18B-0100C4EA2911"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

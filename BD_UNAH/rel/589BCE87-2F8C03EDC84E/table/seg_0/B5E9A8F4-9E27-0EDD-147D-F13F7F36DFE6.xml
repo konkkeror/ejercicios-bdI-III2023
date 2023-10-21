@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5E9A8F4-9E27-0EDD-147D-F13F7F36DFE6" name="TBL_ESTADOS_MATRICULA">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-20 01:45:48 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADO" id="95F5B636-808C-EF8C-1B02-2DB780C71705">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-20 01:46:18 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ESTADO" id="06AAF2E6-B252-B26A-9D17-49472528426F">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-20 01:46:18 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="5756A204-8366-45BA-F54B-A5A5E8679369">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-20 01:46:18 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E500C507-062C-32F9-5A90-6CB34E6CCA22" name="TBL_ESTADOS_MATRICULA_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-20 01:46:26 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95F5B636-808C-EF8C-1B02-2DB780C71705"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
