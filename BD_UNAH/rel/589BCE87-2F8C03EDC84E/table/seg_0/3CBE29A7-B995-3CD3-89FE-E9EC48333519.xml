@@ -1,16 +1,26 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="98F226E2-A396-4D3C-52A7-B348D9E7DC1D" name="TBL_MAESTROS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CBE29A7-B995-3CD3-89FE-E9EC48333519" name="TBL_HISTORIALES">
 <createdBy>erick.marin</createdBy>
-<createdTime>2023-10-13 17:41:38 UTC</createdTime>
+<createdTime>2023-10-24 01:41:30 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>
-<ordsAlias>table_10</ordsAlias>
+<ordsAlias>table_25</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CODIGO_MAESTRO" id="1019642B-05CB-2284-A062-AE54F61F772E">
+<Column name="CODIGO_HISTORIAL" id="820737F4-A63A-17CA-8ABB-CA42654DA225">
 <createdBy>erick.marin</createdBy>
-<createdTime>2023-10-13 17:43:36 UTC</createdTime>
+<createdTime>2023-10-24 01:45:30 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_MATRICULA" id="1D326F4C-A861-C360-9721-428CC941FD6C">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-24 01:46:01 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,25 +29,13 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="3F9E3B0C-1EA1-CEDA-0096-F4C03CC2053A" referredColumn="A3F0ABA5-E846-D949-768F-B6A95E997FD8"/>
+<colAssociation fkAssociation="1B0BFF9A-AFCD-201D-ED6C-2450C8B38578" referredColumn="B710956F-BC04-941F-C8E5-2C04217FD1F6"/>
 </associations>
 </Column>
-<Column name="UNIDADES_VALORATIVAS" id="F63E277F-B38B-F5A3-ACEE-A2DB305562AF">
+<Column name="CODIGO_ESTADO_HISTORIAL" id="54497A00-AB69-630C-6811-F42138FFC104">
 <createdBy>erick.marin</createdBy>
-<createdTime>2023-10-13 17:43:13 UTC</createdTime>
+<createdTime>2023-10-24 01:48:12 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="CODIGO_CATEGORIA" id="271ABF98-8BA8-BAEB-E697-7EC276477544">
-<createdBy>erick.marin</createdBy>
-<createdTime>2023-10-13 17:45:16 UTC</createdTime>
-<ownerDesignName>BD_UNAH</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -45,40 +43,51 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="0E12CF0C-28FA-6774-A500-CF59623AFED2" referredColumn="6167223F-31AF-0684-8E67-3C896CE3CEE4"/>
+<colAssociation fkAssociation="C57B17A5-81BC-5C4A-EF59-7F8B0E37E904" referredColumn="5C6A5C7D-B3BF-A053-5E8D-079636AA2AE8"/>
 </associations>
+</Column>
+<Column name="PROMEDIO" id="A3D47019-2D98-7421-5192-4D073C43FA63">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-24 01:45:30 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="63D3E723-5B22-901B-BEF2-8A1FE82931D2" name="TBL_MAESTROS_PK">
+<ind_PK_UK id="A4BD1F68-34F8-E859-7AB1-97A787F70517" name="TBL_HISTORIALES_PK">
 <createdBy>erick.marin</createdBy>
-<createdTime>2023-10-13 17:43:56 UTC</createdTime>
+<createdTime>2023-10-24 01:45:38 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1019642B-05CB-2284-A062-AE54F61F772E"/>
+<colUsage columnID="820737F4-A63A-17CA-8ABB-CA42654DA225"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5A58FD68-EEA3-7E00-AA03-57A90C6F0A51" name="TBL_MAESTROS_TBL_EMPLEADOS_FK">
+<ind_PK_UK id="C46E28CB-8E95-4B99-0771-501839890D96" name="HISTMATR_FK">
 <createdBy>erick.marin</createdBy>
-<createdTime>2023-10-13 17:43:36 UTC</createdTime>
+<createdTime>2023-10-24 01:46:01 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1019642B-05CB-2284-A062-AE54F61F772E"/>
+<colUsage columnID="1D326F4C-A861-C360-9721-428CC941FD6C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8D193E81-631D-2EDD-7509-09D72A3DFCFC" name="MAE_CAT_MAE_FK">
+<ind_PK_UK id="4347D616-586C-B4F3-C06A-8013ECFE4260" name="HIS_TBL_EST_HIS_FK">
 <createdBy>erick.marin</createdBy>
-<createdTime>2023-10-13 17:45:16 UTC</createdTime>
+<createdTime>2023-10-24 01:48:12 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="271ABF98-8BA8-BAEB-E697-7EC276477544"/>
+<colUsage columnID="54497A00-AB69-630C-6811-F42138FFC104"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

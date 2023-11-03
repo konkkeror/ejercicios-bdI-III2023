@@ -52,8 +52,11 @@
 <createdTime>2023-10-18 01:45:24 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="LONGITUD" id="8712EE34-CE4E-6A0D-A2D2-A569EA45EC81">
@@ -61,7 +64,9 @@
 <createdTime>2023-10-18 01:45:24 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -70,7 +75,9 @@
 <createdTime>2023-10-18 01:45:24 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -79,7 +86,9 @@
 <createdTime>2023-10-18 01:45:24 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -106,7 +115,7 @@
 <colUsage columnID="89F4FF3E-40B6-1B23-8188-001B6E79714C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="553825B8-84DF-0337-ABFD-16FA7D47ECDE" name="TBL_LUGARES_TBL_TIPOS_LUGARES_FK">
+<ind_PK_UK id="553825B8-84DF-0337-ABFD-16FA7D47ECDE" name="LUG_TI_LUG_FK">
 <createdBy>erick.marin</createdBy>
 <createdTime>2023-10-18 01:47:37 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>

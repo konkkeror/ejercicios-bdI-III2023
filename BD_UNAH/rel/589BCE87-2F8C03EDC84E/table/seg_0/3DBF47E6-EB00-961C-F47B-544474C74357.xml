@@ -23,8 +23,11 @@
 <createdTime>2023-10-20 01:51:25 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="CODIGO_PERIODO" id="287951DA-5D94-6DAE-CEC3-383F5D13C56D">
@@ -89,7 +92,9 @@
 <createdTime>2023-10-13 17:51:02 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -98,7 +103,9 @@
 <createdTime>2023-10-13 17:52:21 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -145,7 +152,7 @@
 <colUsage columnID="1C7EB840-B9BB-5B64-5138-1640E53E1C1C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2DDFC263-E8D0-D190-B1FA-6C159C86F806" name="TBL_SECCIONES_TBL_ASIGNATURAS_FK">
+<ind_PK_UK id="2DDFC263-E8D0-D190-B1FA-6C159C86F806" name="SECC_ASIG_FK">
 <createdBy>erick.marin</createdBy>
 <createdTime>2023-10-20 01:41:51 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>

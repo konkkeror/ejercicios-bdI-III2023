@@ -8,6 +8,16 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_MATRICULA" id="B710956F-BC04-941F-C8E5-2C04217FD1F6">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-24 01:28:56 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="CODIGO_SECCION" id="B1194E9A-4895-24A7-63E1-A68F3FE1D815">
 <createdBy>erick.marin</createdBy>
 <createdTime>2023-10-20 01:42:48 UTC</createdTime>
@@ -55,12 +65,25 @@
 <createdTime>2023-10-20 01:44:56 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1BD5DAC3-8523-B200-5965-0E1CDAAFA90A" name="TBL_MATRICULA_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-24 01:28:56 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B710956F-BC04-941F-C8E5-2C04217FD1F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="B56913B1-1B61-3B97-B8B2-75F686949540" name="TBL_MATRICULA_TBL_SECCIONES_FK">
 <createdBy>erick.marin</createdBy>
 <createdTime>2023-10-20 01:42:48 UTC</createdTime>
@@ -81,7 +104,7 @@
 <colUsage columnID="F6A87C6B-AAF7-FDDE-DA2A-D03C6318402B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E05BDC9D-3F62-8402-91DD-A1D5F98D3213" name="TBL_MATRICULA_TBL_ESTADOS_MATRICULA_FK">
+<ind_PK_UK id="E05BDC9D-3F62-8402-91DD-A1D5F98D3213" name="MAT_EST_MAT_FK">
 <createdBy>erick.marin</createdBy>
 <createdTime>2023-10-20 01:46:38 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>

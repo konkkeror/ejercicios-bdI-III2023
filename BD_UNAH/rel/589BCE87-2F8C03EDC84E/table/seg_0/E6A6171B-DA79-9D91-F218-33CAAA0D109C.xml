@@ -41,7 +41,9 @@
 <createdTime>2023-10-13 17:22:02 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -61,7 +63,9 @@
 <createdTime>2023-10-13 17:22:02 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -79,7 +83,7 @@
 <colUsage columnID="AF367E11-5FEF-74B6-6E58-7F2311196E4A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CE8F5643-37A0-B2E5-6BF4-59B6C66C7139" name="TBL_ALUMNOS_X_CARRERAS_TBL_ALUMNOS_FK">
+<ind_PK_UK id="CE8F5643-37A0-B2E5-6BF4-59B6C66C7139" name="ALU_X_CARR_ALU_FK">
 <createdBy>erick.marin</createdBy>
 <createdTime>2023-10-13 17:18:24 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>
@@ -89,7 +93,7 @@
 <colUsage columnID="EACF1EA4-D580-E2B7-BDAC-3B9F08EAC952"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="AFD8B2BB-054A-EE65-CC43-1B7151E22464" name="TBL_ALUMNOS_X_CARRERAS_TBL_CARRERAS_FK">
+<ind_PK_UK id="AFD8B2BB-054A-EE65-CC43-1B7151E22464" name="ALU_X_CARR_TBL_CARR_FK">
 <createdBy>erick.marin</createdBy>
 <createdTime>2023-10-13 17:18:31 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>

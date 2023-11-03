@@ -37,8 +37,11 @@
 <createdTime>2023-10-18 01:33:58 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -54,7 +57,7 @@
 <colUsage columnID="899C88F9-260B-A62D-06BF-6D88C73A193C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="239B570F-84A8-1503-3C2E-1F3940C86F44" name="TBL_MUNICIPIOS_TBL_DEPARTAMENTOS_FK">
+<ind_PK_UK id="239B570F-84A8-1503-3C2E-1F3940C86F44" name="MUN_DEP_FK">
 <createdBy>erick.marin</createdBy>
 <createdTime>2023-10-18 01:34:12 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>

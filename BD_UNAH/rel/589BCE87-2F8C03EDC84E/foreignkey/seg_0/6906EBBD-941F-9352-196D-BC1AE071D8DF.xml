@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6906EBBD-941F-9352-196D-BC1AE071D8DF" containerWithKeyObject="E6A6171B-DA79-9D91-F218-33CAAA0D109C" localFKIndex="AFD8B2BB-054A-EE65-CC43-1B7151E22464" name="TBL_ALUMNOS_X_CARRERAS_TBL_CARRERAS_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6906EBBD-941F-9352-196D-BC1AE071D8DF" containerWithKeyObject="E6A6171B-DA79-9D91-F218-33CAAA0D109C" localFKIndex="AFD8B2BB-054A-EE65-CC43-1B7151E22464" name="ALU_X_CARR_TBL_CARR_FK">
 <createdBy>erick.marin</createdBy>
 <createdTime>2023-10-13 17:18:31 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>

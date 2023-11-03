@@ -81,7 +81,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="NOMBRE" id="A1D3CBDC-52F3-C58E-D666-038F999D3407">
@@ -164,7 +165,7 @@
 <colUsage columnID="9D6D639D-66DE-2015-D949-D00D0A213099"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DD4647CE-FF82-AB38-3F9D-39140A1D9E8F" name="TBL_PERSONAS_TBL_CENTROS_REGIONALES_FK">
+<ind_PK_UK id="DD4647CE-FF82-AB38-3F9D-39140A1D9E8F" name="PER_CEN_REG_FK">
 <createdBy>erick.marin</createdBy>
 <createdTime>2023-10-12 01:51:58 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>

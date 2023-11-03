@@ -37,8 +37,11 @@
 <createdTime>2023-10-13 17:47:06 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="DIRECCION" id="4F9E3005-64A3-FDB1-1871-22D5979E353A">
@@ -46,8 +49,11 @@
 <createdTime>2023-10-13 17:47:06 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -63,7 +69,7 @@
 <colUsage columnID="07B8A28D-916C-E1D5-4B37-CC0DB21B3486"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4D318A2C-5A48-FDB9-248D-765605F8A98C" name="TBL_EDIFICIOS_TBL_CENTROS_REGIONALES_FK">
+<ind_PK_UK id="4D318A2C-5A48-FDB9-248D-765605F8A98C" name="EDIF_CEN_REG_FK">
 <createdBy>erick.marin</createdBy>
 <createdTime>2023-10-20 01:49:29 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>

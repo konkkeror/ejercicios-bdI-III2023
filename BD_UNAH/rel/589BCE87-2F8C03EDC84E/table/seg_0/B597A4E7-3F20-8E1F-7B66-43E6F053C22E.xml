@@ -79,7 +79,7 @@
 <colUsage columnID="FF8550A0-1323-4172-FA67-F2C0B788C0E8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C73F38BA-F2BB-9D6E-1FB7-FDC234AA624E" name="TBL_CENTROS_REGIONALES_TBL_LUGARES_FK">
+<ind_PK_UK id="C73F38BA-F2BB-9D6E-1FB7-FDC234AA624E" name="CEN_REGI_LUG_FK">
 <createdBy>erick.marin</createdBy>
 <createdTime>2023-10-18 01:49:52 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>

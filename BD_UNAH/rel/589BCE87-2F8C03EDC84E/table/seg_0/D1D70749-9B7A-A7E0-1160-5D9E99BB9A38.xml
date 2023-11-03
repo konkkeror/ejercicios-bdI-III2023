@@ -38,8 +38,11 @@
 <createdTime>2023-10-18 01:22:11 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="UV" id="8EA3BF28-192B-2E12-C960-C2BD907B245F">
@@ -47,7 +50,9 @@
 <createdTime>2023-10-18 01:22:11 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -64,7 +69,7 @@
 <colUsage columnID="217C1CF3-6C73-3836-CB07-0F4DC834A7B1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BD03B8D0-7232-3057-37F7-FEF94538A3F3" name="TBL_ASIGNATURAS_TBL_CARRERAS_FK">
+<ind_PK_UK id="BD03B8D0-7232-3057-37F7-FEF94538A3F3" name="ASIG_CAR_FK">
 <createdBy>erick.marin</createdBy>
 <createdTime>2023-10-20 01:12:14 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>

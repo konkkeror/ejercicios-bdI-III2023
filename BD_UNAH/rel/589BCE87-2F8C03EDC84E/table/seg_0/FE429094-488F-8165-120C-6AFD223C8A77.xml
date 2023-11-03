@@ -35,7 +35,9 @@
 <createdTime>2023-10-13 17:10:21 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -90,7 +92,7 @@
 <colUsage columnID="D6897315-7772-9B7F-E1B5-8827694A5C1A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A0D9E16F-6FA9-D997-5BB5-895F0A557E85" name="TBL_CARRERAS_TBL_EMPLEADOS_FKv2">
+<ind_PK_UK id="A0D9E16F-6FA9-D997-5BB5-895F0A557E85" name="CAR_EMPLE_FKv2">
 <createdBy>erick.marin</createdBy>
 <createdTime>2023-10-13 17:33:05 UTC</createdTime>
 <ownerDesignName>BD_UNAH</ownerDesignName>
